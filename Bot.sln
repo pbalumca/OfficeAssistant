@@ -26,15 +26,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "messages", "messages", "{F4D9DF3B-F4E4-4E19-9053-3AF71A3189FA}"
 	ProjectSection(SolutionItems) = preProject
 		messages\BasicLuisDialog.csx = messages\BasicLuisDialog.csx
+		DefaultDialog.csx = DefaultDialog.csx
 		messages\function.json = messages\function.json
 		messages\project.json = messages\project.json
 		messages\project.lock.json = messages\project.lock.json
 		messages\run.csx = messages\run.csx
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dialogs", "Dialogs", "{DC173B0D-F0F6-4DB6-992B-DE9E3A2BCE41}"
-	ProjectSection(SolutionItems) = preProject
-		DefaultDialog.cs = DefaultDialog.cs
 	EndProjectSection
 EndProject
 Global
@@ -55,6 +51,5 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F4D9DF3B-F4E4-4E19-9053-3AF71A3189FA} = {36665A78-4D93-48C7-B432-4DA46AA140D5}
-		{DC173B0D-F0F6-4DB6-992B-DE9E3A2BCE41} = {36665A78-4D93-48C7-B432-4DA46AA140D5}
 	EndGlobalSection
 EndGlobal
