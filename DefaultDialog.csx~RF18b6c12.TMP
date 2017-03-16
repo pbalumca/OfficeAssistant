@@ -10,7 +10,7 @@ public class DefaultDialog : LuisDialog<object>
     [LuisIntent("")]
     public async Task None(IDialogContext context, LuisResult result)
     {
-        await context.PostAsync("Sorry,  I dont know what you wanted...."); //
+        await context.PostAsync("Sorry,  I dont know what you wanted..."); //
         context.Wait(MessageReceived);
     }
 
